@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191919;
+}
+
+.title {
+    color: #f1f0ea;
+    text-align: center;
+    margin: 60px;
+    font-size: 400%;
+    font-family: Bitter, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: -15px;
+}
+
+.recipes-container {
+    padding: 20px;
+    margin: 0 50px;
+    text-align: center;
+    border: 1px solid #e2e1e1b0;
+    border-radius: 10px;
+}
+
+.recipe-link {
+    display: inline-block;
+    margin: 5px;
+
+}
+
+a {
+    color: #f1f0ea;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #b9ce74;
+    font-weight: bold;
+}
